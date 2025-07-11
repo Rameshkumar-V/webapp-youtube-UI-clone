@@ -58,7 +58,7 @@ export default function Header() {
     };
   }, [searchQuery]);
   return (
-    <div className="grid grid-flow-col w-full px-4 py-2 items-center">
+    <div className=" grid grid-flow-col md:w-full  px-4 py-2 items-center">
       <div className="flex col-span-1 gap-2">
         <button
           className="h-6 w-10"

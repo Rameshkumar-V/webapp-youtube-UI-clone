@@ -27,7 +27,7 @@ function MainContainer() {
       <div className="p-1 ">
         <Categories />
 
-        <div className=" h-screen flex flex-wrap justify-center overflow-scroll  ">
+        <div className=" md:h-screen h-max flex flex-wrap justify-center overflow-scroll border  ">
           {videoData?.map((data) => (
         
             <Link to={'/watch'}>

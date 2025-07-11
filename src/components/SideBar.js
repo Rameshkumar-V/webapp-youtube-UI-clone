@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom';
 
 function SideBar() {
   const isShow = useSelector(state=>state.header)
@@ -30,34 +31,36 @@ function SideBar() {
   if(!isShow.isShow)return null;
   return (
     <div
-      className="fixed w-full h-14  bottom-0  md:p-1 bg-white
+      className=" fixed w-full h-14  bottom-0  md:p-1 bg-white
     md:relative  md:block  md:w-20  md:h-screen shadow-lg  "
     >
       {links.map((data, key) => {
         return (
           <>
             <h3 className="text-md p-1">{data?.title} </h3>
-            <ul key={key} className="flex md:block flex-row justify-between ">
+            <ul key={key} className="flex md:block flex-row justify-between  ">
               {data.data.map((data, key) => (
-                <li
-                  key={key}
-                  className=" px-6 md:py-4  
-                   flex flex-col justify-center md:items-center 
-                    rounded-lg hover:bg-gray-200 
+                <Link to={"/"}>
+                  <li
+                    key={key}
+                    className=" px-6 md:py-4  
+                   flex flex-col justify-center items-center 
+                    rounded-lg hover:bg-gray-200  
                    "
-                >
-                  {data?.icon && (
-                    <img
-                      src={data?.icon}
-                      alt=" Logo"
-                      style={{ width: "24px", height: "24px" }}
-                    />
-                  )}
+                  >
+                    {data?.icon && (
+                      <img
+                        src={data?.icon}
+                        alt=" Logo"
+                        style={{ width: "24px", height: "24px" }}
+                      />
+                    )}
 
-                  <h2 className="text-xs text-gray-800 cursor-pointer">
-                    {data?.title}
-                  </h2>
-                </li>
+                    <h2 className="md:text-xs font-bold text-center text-gray-800 cursor-pointer">
+                      {data?.title}
+                    </h2>
+                  </li>
+                </Link>
               ))}
             </ul>
           </>

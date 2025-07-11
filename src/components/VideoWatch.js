@@ -19,7 +19,7 @@ const VideoWatch = ({videoData}) => {
        videoData[1]?.snippet || {};
     return (
       <div>
-        <div className="w-full h-full grid grid-cols-12 overflow-y-scroll ">
+        <div className="w-full  h-full grid grid-cols-12 overflow-y-scroll  ">
           <div className=" col-span-12 md:col-span-8 px-2 py-1 h-svh overflow-y-scroll scroll-smooth ">
             <iframe
               src="https://www.youtube.com/embed/442ewPgXHQ0?si=FBgQAhyEe9PcKZgI"

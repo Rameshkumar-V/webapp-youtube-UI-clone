@@ -19,7 +19,7 @@ const VideoActionBar = ({ channelTitle }) => {
           Subscribe{" "}
         </button>
 
-        <div className="rounded-full bg-gray-100 w-32  p-1">
+        <div className="rounded-full hidden md:block bg-gray-100 w-32  p-1">
           <button className=" inline-block ">
             <img
               className="inline-block ml-2"
@@ -28,7 +28,7 @@ const VideoActionBar = ({ channelTitle }) => {
             ></img>
             2.2 M
           </button>
-          <button className="inline-block ml-2 border-l-gray-800">
+          <button className="inline-block  ml-2 border-l-gray-800">
        
             <img
               className="inline-block"
@@ -38,7 +38,7 @@ const VideoActionBar = ({ channelTitle }) => {
           </button>
         </div>
 
-        <button className="rounded-full bg-gray-100 px-3 py-1">
+        <button className="rounded-full bg-gray-100 px-3 py-1 ">
           <img
             className="inline-block "
             alt="Share"

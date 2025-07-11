@@ -2,6 +2,8 @@
   "name": "webapp-youtube-clone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rameshkumar-v.github.io/repo-webapp-youtube-ui-clone",
+
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "@testing-library/dom": "^10.4.0",

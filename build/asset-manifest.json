@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/repo-webapp-youtube-ui-clone/static/css/main.0da2841f.css",
+    "main.js": "/repo-webapp-youtube-ui-clone/static/js/main.0e2d2cd1.js",
+    "index.html": "/repo-webapp-youtube-ui-clone/index.html",
+    "main.0da2841f.css.map": "/repo-webapp-youtube-ui-clone/static/css/main.0da2841f.css.map",
+    "main.0e2d2cd1.js.map": "/repo-webapp-youtube-ui-clone/static/js/main.0e2d2cd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0da2841f.css",
+    "static/js/main.0e2d2cd1.js"
+  ]
+}

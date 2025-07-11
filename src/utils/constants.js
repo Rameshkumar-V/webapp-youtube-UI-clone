@@ -1,3 +1,11 @@
-export const youtubeURL = 'https://imgs.search.brave.com/5N0fv_jlO5uiFCr99LMD2rXXN83rxlacKErGxigv6-Y/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzFmL0xvZ29fb2Zf/WW91VHViZV8oMjAw/NS0yMDA2KS5zdmc';
+export const youtubeURL =
+  "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo_with_text/v3/20px.svg";
 export const hambburgerMenuURL = 'https://icons.veryicon.com/png/o/miscellaneous/linear-icon-45/hamburger-menu-4.png';
 export const userIcon = 'https://t3.ftcdn.net/jpg/05/60/26/08/360_F_560260880_O1V3Qm2cNO5HWjN66mBh2NrlPHNHOUxW.jpg';
+export const YOUTUBE_API_KEY = "AIzaSyBs8k3enToFWbXs6PwxaSJG162N3jgMSW4f"; 
+export const YOUTUBE_VIDEOS_API =
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" +
+  YOUTUBE_API_KEY;
+
+export const YOUTUBE_CHANNEL_ICON =
+  "https://img.icons8.com/ios-filled/100/000000/user-male-circle.png";
